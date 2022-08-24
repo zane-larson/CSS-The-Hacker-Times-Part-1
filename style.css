@@ -1,1 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYmRjRdE.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhduz8A.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+.Author {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    font-family: Abril FatFace;
+    font-size: 300%; 
+
+}
+#Rtitle {
+    font-family: Roboto Slab;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    font-family: Source Sans Pro;
+    color: grey
+}
+
+nav{
+    display: inline;
+    text-align: center;
+
+}
+
+.pics {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.pics2 {
+    width: 80%;
+    height: auto;
+
+}
+
+.more-articles {
+    display: inline;
+ 
+
+}
+
+.marts{
+    display: inline;
+    width: 50%;
+    float: left
+}
+ .marts2 {
+    float: right;
+    width: 50%;
+    display: inline;
+    margin-right: -80px
+    /* margin-top: -18px; */
+
+ }
+ body {
+    /* float:center; */
+    margin-left: 100px;
+    margin-right: 100px;
+    
+ }
+ .article-text {
+    width: 80%;
+ }
+
+h4 {
+    font-weight: bold;
+}
